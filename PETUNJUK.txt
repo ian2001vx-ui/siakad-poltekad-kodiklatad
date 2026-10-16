@@ -1,0 +1,21 @@
+PERBAIKAN FRAME MENU SIAKAD
+
+Isi:
+- app.py: program lengkap yang dipertahankan; tambahan CSS visual di bagian akhir.
+- frame_menu_pusat_fitur.png: aset bingkai emas yang digunakan untuk setiap menu dan tombol logout.
+
+Pemasangan:
+1. Simpan salinan cadangan app.py di repository.
+2. Unggah app.py dari paket ini ke folder root repository GitHub, branch main.
+3. Pastikan frame_menu_pusat_fitur.png juga berada di folder root yang sama.
+4. Pertahankan semua aset lain yang sudah digunakan program.
+5. Commit perubahan, tunggu Streamlit Cloud selesai redeploy.
+
+Yang diperbaiki:
+- Bingkai tetap terlihat pada Dashboard Utama ketika dipilih.
+- Bingkai digunakan untuk semua pilihan menu.
+- Tombol Keluar / Logout mendapat bingkai yang sama.
+- Menghapus efek geser vertikal pada kontainer sidebar yang dapat memotong konten.
+- Logika navigasi dan aksi logout tidak diubah.
+
+Validasi: sintaks Python lolos ast.parse. Tampilan akhir tetap perlu diperiksa setelah redeploy.
